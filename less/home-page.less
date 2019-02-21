@@ -11,7 +11,7 @@
       margin-left: 20px;
       
 
-      @media(max-width: 500px){
+      @media @mobile{
         width: 90%;
         margin-left: 25px;
         
@@ -20,7 +20,7 @@
     h2{
       margin: 20px 0;
       
-      @media(max-width:500px){
+      @media @mobile{
         margin-left: 20px;
       }
     }
@@ -28,7 +28,7 @@
       width: 89%;
       font-size: 2rem;
 
-      @media(max-width:500px){
+      @media @mobile{
         width: 85%;
         margin-left: 20px;
     }
@@ -45,11 +45,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-    @media(max-width:500px){
+    @media @mobile{
       display:flex;
-      flex-direction: column;
-      align-content: center;
-      
+       flex-direction: column;
+       flex-wrap:wrap;
+      margin: 30px;
      
     }
     
@@ -57,7 +57,7 @@
       width: 48%;
       padding-right: 1%;
 
-      @media(max-width:500px){
+      @media @mobile{
         width: 95%;
         margin: 1%;
       }
@@ -67,7 +67,7 @@
       width: 48%;
       padding-left: 1%;
 
-      @media(max-width:500px){
+      @media @mobile{
 
         width: 60%;
         padding-left: 1%;
@@ -79,7 +79,7 @@
       img {
         border-radius: 10px;
 
-        @media(max-width:500px){
+        @media @mobile{
           
           width: 100%;
           margin-left: 50%;
@@ -122,7 +122,7 @@
     display: flex;
     justify-content: space-between;
 
-    @media(max-width:500px){
+    @media @mobile{
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -132,7 +132,7 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
-      @media(max-width:500px){
+      @media @mobile{
         width: 66%;
         margin: 0 auto;
         padding: 20px ;

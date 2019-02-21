@@ -1,1 +1,55 @@
 // Mixins in here
+
+//navigation
+.custom-nav(){
+        font-size: 2rem;
+        display:flex;
+        justify-content: space-between;
+        margin: 20px 0;
+        @media(max-width:500px){
+            display: flex;
+             flex-direction: column;
+            align-items: center;
+
+            h1{
+                padding: 5px 0;
+            }
+        }
+}
+
+.custom-atag(@bg-color:gray, @margin:20px){
+    color:@bg-color;
+    text-decoration: none;
+    margin-left:@margin;
+
+    @media(max-width: 500px){
+        margin-right: 50px;
+        
+        padding: 10px 0;
+    }
+}
+
+//button
+.custom-button(@width:100px, @bg-color:green, @font-color: white){
+    background-color: @bg-color;
+    color: @font-color;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius:10px;
+    width:@width;
+    height: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+    &:hover{
+        background-color: @font-color;
+        color: @bg-color;
+    }
+
+    @media(max-width:500px){
+        width: 300px;
+        background-color:@eastern-blue;
+      }
+}

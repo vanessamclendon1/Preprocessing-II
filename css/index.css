@@ -213,13 +213,17 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
 .home .main-header {
   border-top: 2px dashed silver;
   border-bottom: 2px dashed silver;
-  padding-bottom: 20px;
 }
 .home .main-header img {
-  width: 100%;
+  width: 90%;
   margin-left: 20px;
 }
 @media (max-width:515px) {
@@ -230,6 +234,7 @@ img {
 }
 .home .main-header h2 {
   margin: 20px 0;
+  margin-left: 20px;
 }
 @media (max-width:515px) {
   .home .main-header h2 {
@@ -239,6 +244,7 @@ img {
 .home .main-header p {
   width: 89%;
   font-size: 2rem;
+  margin-left: 20px;
 }
 @media (max-width:515px) {
   .home .main-header p {
@@ -251,6 +257,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 @media (max-width:515px) {
   .home .content-section {
@@ -314,6 +322,8 @@ img {
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 @media (max-width:515px) {
   .home .content-pick {

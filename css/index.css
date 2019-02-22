@@ -213,20 +213,19 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
-.home {
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: 1.6rem;
-}
 .home .main-header {
   border-top: 2px dashed silver;
   border-bottom: 2px dashed silver;
 }
+@media (max-width:515px) {
+  .home .main-header {
+    width: 90%;
+    margin-left: 20px;
+  }
+}
 .home .main-header img {
   width: 90%;
   margin-left: 20px;
-}
-@media (max-width:515px) {
 }
 .home .main-header h2 {
   margin: 20px 0;
@@ -334,7 +333,7 @@ img {
   .home .content-pick {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
   }
 }
 .home .content-pick .destination {
